@@ -1,0 +1,142 @@
+.main {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.main h3 {
+  margin-bottom: 15px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.PieChart {
+  width: calc(50% - 10px);
+  /* height: 250px; */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PieChart h4 {
+  margin: 5px;
+  text-align: left;
+}
+
+.card {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 1rem;
+}
+
+.cardItem {
+  padding: .5rem 1rem;
+  width: 95%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.cardItem .svg {
+  position: absolute;
+  right: 0;
+  height: 7rem;
+  width: 7rem;
+  stroke-width: 1;
+  left: -2.5rem
+}
+
+.cardItem1 {
+  background-color: rgb(210 244 238/1);
+}
+
+.cardItem2 {
+  background-color: rgb(255 237 213/1);
+}
+
+.cardItem3 {
+  background-color: rgb(224 242 254/1);
+}
+
+.cardItem4 {
+  background-color: rgb(243 232 255/1);
+}
+
+.svg1 {
+  color: #a0e8db80;
+}
+
+.svg2 {
+  color: #fed7aa80;
+}
+
+.svg3 {
+  color: #bae6fd80;
+}
+
+.svg4 {
+  color: #e9d5ff80;
+}
+
+.Box {
+  padding: 10px;
+  color: #fff;
+  width: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box1 {
+  background: #009688;
+}
+
+.Box2 {
+  background: #ff9800;
+}
+
+.Box3 {
+  background: #03a9f4d4;
+}
+
+.Box4 {
+  background: #9c27b0d6;
+}
+
+.cardItem h5 {
+  font-weight: 600;
+  font-size: 1.125rem;
+
+}
+
+.cardItem p {
+  color: #ccc;
+}
+
+@media (max-width: 660px) {
+  .PieChart {
+    width: 100%;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 75%;
+  }
+}
