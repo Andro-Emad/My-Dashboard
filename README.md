@@ -23,6 +23,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Images about My Dashboard
 
 ![Page1 img](./public/Page1.JPG)
-![Page2 img](./publicPage2.JPG)
-![Page3 img](./publicPage3.JPG)
+![Page2 img](./public/Page2.JPG)
+![Page3 img](./public/Page3.JPG)
 
